@@ -1,8 +1,8 @@
 "use strict";
 
-const textChange = document.getElementById("domP");
+const domP = document.getElementById("domP");
 
-textChange.innerHTML = "Big text change!";
+domP.innerHTML = "Big text change!";
 
 const h2Style = document.querySelector("#domHead");
 
